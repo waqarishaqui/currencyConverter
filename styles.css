@@ -95,3 +95,8 @@ button:hover {
   transform: scale(1.01);
   background-color: rgba(110, 110, 244, 0.9);
 } 
+@media (max-width: 480px) {
+  .dropdown{
+    gap: 1rem;
+}
+}
